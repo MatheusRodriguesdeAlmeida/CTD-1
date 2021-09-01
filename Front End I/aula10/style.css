@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.box {
+    box-sizing: border-box;
+    background-image: url("bacon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1280px;
+    height: 720px;
+    border: 8px solid black;
+    border-radius: 25px;
+    color: white;
+}
+
+.div-button {
+    text-align: center;
+}
+
+.vertical {
+    text-align: center;
+    height: 40%;
+    vertical-align: middle;
+}
+
+.vertical h1 {
+    background-color: black;
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.vertical h2 {
+    background-color: black;
+    display: inline-block;
+    font-size: 40px; 
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
