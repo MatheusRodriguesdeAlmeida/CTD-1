@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.box-major {
+    height: 300px;
+    width: 300px;
+    background-color: lawngreen;
+}
+
+
+.box-minor {
+    height: 150px;
+    width: 150px;
+    background-color: mediumblue;
+    margin: auto;
+    position: relative;
+    top: calc(50% - 150px/2);
+}
+
+
+p {
+    color: wheat;
+    text-align: center;
+    padding: 25px;
+}
+
+.first {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.second {
+    position: absolute;
+    left: calc(50% - 200px/2);
+    bottom: 0;  
+}
+
+.third {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
