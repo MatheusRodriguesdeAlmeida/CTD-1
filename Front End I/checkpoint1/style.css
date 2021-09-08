@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@500&display=swap');
+
+body {
+    background-image: url("portico-2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center
+    background
+}
+
+header {
+    padding: 0 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+
+header ul {
+    text-align: center;
+}
+
+header li {
+    display: grid;
+    padding: 15px 25px;
+    margin: 10px 500px;
+    font-size: 30px;
+    font-family: 'Glory', sans-serif;
+    font-weight: bold;
+    border: solid;
+    border-radius: 15px;
+}
+
+li:hover {
+    opacity: 1;
+}
+
+.preto {
+    background-color: black;
+    opacity: 0.6;  
+    text-shadow: 3px 3px black;
+}
+
+.vermelho {
+    background-color: red;
+    opacity: 0.6; 
+    text-shadow: 3px 3px black;
+
+}
+
+.amarelo {
+    background-color: yellow;
+    opacity: 0.6;
+    text-shadow: 3px 3px black;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    padding: 25px 50px;
+    margin: 10px;
+    text-align: justify;
+}
+
+p a {
+    text-decoration: none;
+    text-shadow: none;    
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+p a:hover {
+    background-color: white;
+}
+
+.alinhar-centro {
+    text-align: center;
+}
+
+.video {
+    align-items: center;
+    width: 50%;
+    padding-left: 15%; 
+    /* Melhorar essa centralização  */
+}
+
+.curiosidades {
+    background: linear-gradient(black, red, yellow);
+    margin: 42px 0;
+    padding: 20px;
+}
+
+main h2 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+main li {
+    text-align: center;
+    padding: 8px;
+}
+
+.instagram {
+    width: 50px;
+    height: 50px;
+}
+
+.youtube {
+    width: 75px;
+    height: 50px;
+}
