@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 4000px;
+}
+
+.div1 {
+    background-color: crimson;
+    width: 300px;
+    height: 300px;
+}
+
+.div2 {
+    background-color: crimson;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    left: calc(50% - 150px);
+    bottom: 0;
+}
+
+.div3 {
+    background-color: crimson;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.div-pequena {
+    background-color: royalblue;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 75px;
+    top: 75px;
+}
+
+p {
+    text-align: center;
+    padding-top: calc(50% - 9px)
+
+}

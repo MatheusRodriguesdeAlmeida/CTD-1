@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 4000px;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 12px;
+}
+
+.box-first {
+    background-color: hotpink;
+    position: relative; 
+
+    /* position: relative - A posição do objeto é relativa ao próprio objeto. Ele ainda existe na posição original, porém visualmente ele se move tomando como ponto de partida a posição "verdadeira" do objeto. */
+
+
+    left: 50px;
+    /* Neste caso o objeto está com 50px de espaço à sua esquerda. Que faz ele ser jogado para a direita (apenas visualmente) */
+}
+
+.box-second {
+    background-color: lightcoral;
+    position: absolute;
+
+    /* position: absolute - A posição do objeto é relativa ao body. E o body não tem altura a não ser que seja definido pois ele se estica conforme o usuário aumenta a quantidade de elementos */
+
+    top: 0;
+    right: 0;
+    /* Neste caso o objeto está colado à direita e ao topo pois é o único posicionamento que ele conhece do body. E neste caso ele está de fato ocupando este lugar e não apenas visualmente como a propriedade relative */
+}
+
+.box-third {
+    background-color: yellowgreen;
+    position: fixed;
+    /* position: fixed - A posição do objeto fica fixada no local desejado e mesmo que mova o scroll ele continuará onde foi mandando. Útil para links de contatos no canto das telas */
+
+    left: calc(50% - 250px / 2);
+
+    /* Para posicioná-lo no centro por exemplo podemos fazer o seguinte cálculo com a função calc() que coloca ele em 50% menos a metade do próprio tamanho para centralizá-lo */
+}
+
+.box-fourth {
+    background-color: tomato;
+}

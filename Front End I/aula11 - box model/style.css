@@ -35,7 +35,7 @@ p {
 
 .second {
     position: absolute;
-    left: calc(50% - 200px/2);
+    left: calc(50% - 300px/2);
     bottom: 0;  
 }
 
